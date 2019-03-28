@@ -8,5 +8,4 @@ Props:
 Example:
   <Parallax
     reduceHeight={1/4}
-    imgSrc="put your image here"
-  />
+    imgSrc="put your image here" />
