@@ -45,7 +45,7 @@ export default class Parallax extends Component {
     return Math.min(Math.max(val, min), max);
   }
 
-  onScroll = (event) => {
+  onScroll = () => {
     this.setState((state, props) => {
       const { reduceHeight } = props;
       const { parentHeight } = state;
@@ -79,6 +79,7 @@ export default class Parallax extends Component {
         }}
       >
         <img
+          alt="this is input image"
           style={{
             ...style,
           width: '100%',
