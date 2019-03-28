@@ -6,6 +6,8 @@ Props:
   - imgSrc (string): user input image URL
 
 Example:
-  # <Parallax
-  #  reduceHeight={reduceHeight}
-  #  src={imageSrc}/>
+  ``` 
+  <Parallax
+    reduceHeight={reduceHeight}
+    src={imageSrc}/>
+  ```
